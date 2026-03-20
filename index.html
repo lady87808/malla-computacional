@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Malla Curricular - Pensamiento Computacional</title>
+
+<style>
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: #f4f6f7;
+}
+
+/* MENÚ */
+nav {
+    background: #2e86c1;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #5dade2, #48c9b0);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* CONTENIDO */
+.contenedor {
+    padding: 20px;
+}
+
+.tarjeta {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #117a65;
+}
+
+/* BOTÓN */
+.boton {
+    display: inline-block;
+    background: #2e86c1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #2e86c1;
+    color: white;
+    padding: 15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#periodo1">Periodo 1</a>
+<a href="#periodo2">Periodo 2</a>
+<a href="#periodo3">Periodo 3</a>
+</nav>
+
+<header id="inicio">
+<h1>Malla Curricular</h1>
+<p>Pensamiento Computacional y Programación</p>
+<p><strong>Grado Primero</strong></p>
+</header>
+
+<div class="contenedor">
+
+<div class="tarjeta" id="periodo1">
+<h2>📘 Periodo 1: Pienso y organizo</h2>
+<p><strong>Objetivo:</strong> Desarrollar pensamiento lógico.</p>
+<ul>
+<li>Secuencias</li>
+<li>Patrones</li>
+<li>Clasificación</li>
+<li>Uso del mouse</li>
+</ul>
+<a class="boton" onclick="mostrarMensaje('Periodo 1')">Ver actividad</a>
+</div>
+
+<div class="tarjeta" id="periodo2">
+<h2>🤖 Periodo 2: Pienso como programador</h2>
+<p><strong>Objetivo:</strong> Comprender algoritmos.</p>
+<ul>
+<li>Pasos ordenados</li>
+<li>Laberintos</li>
+<li>ScratchJr</li>
+</ul>
+<a class="boton" onclick="mostrarMensaje('Periodo 2')">Ver actividad</a>
+</div>
+
+<div class="tarjeta" id="periodo3">
+<h2>🎮 Periodo 3: Creo y programo</h2>
+<p><strong>Objetivo:</strong> Crear proyectos simples.</p>
+<ul>
+<li>Animaciones</li>
+<li>Historias digitales</li>
+<li>Programación por bloques</li>
+</ul>
+<a class="boton" onclick="mostrarMensaje('Periodo 3')">Ver actividad</a>
+</div>
+
+<div class="tarjeta">
+<h2>🌟 Competencias</h2>
+<ul>
+<li>Pensamiento lógico</li>
+<li>Resolución de problemas</li>
+<li>Creatividad</li>
+<li>Trabajo en equipo</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<p>Docente: Tu Nombre 💜</p>
+<p>Proyecto de Maestría</p>
+</footer>
+
+<script>
+function mostrarMensaje(periodo) {
+    alert("Actividad sugerida para " + periodo + ": Juego de secuencias y retos de programación.");
+}
+</script>
+
+</body>
+</html>
